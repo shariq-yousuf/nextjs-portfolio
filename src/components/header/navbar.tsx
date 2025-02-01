@@ -29,7 +29,7 @@ const Navbar = () => {
       </button>
 
       <ul
-        className={`${showNavbar ? 'left-0' : '-left-full'} border-primary absolute flex w-full flex-col border transition-all duration-[300ms] md:static md:w-auto md:flex-row md:items-center md:justify-end md:gap-2 md:border-none md:pt-6 md:pr-[5dvw]`}
+        className={`${showNavbar ? 'left-0' : '-left-full'} absolute flex h-[calc(100dvh-4rem)] w-full flex-col bg-black px-4 transition-all duration-[300ms] md:static md:h-auto md:w-auto md:flex-row md:items-center md:justify-end md:gap-2 md:border-none md:bg-transparent md:pt-6 md:pr-[5dvw]`}
       >
         {navItems.map((navItem, index) => (
           <li
