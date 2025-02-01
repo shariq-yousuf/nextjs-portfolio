@@ -2,11 +2,9 @@
 
 import { MenuIcon, XIcon } from 'lucide-react'
 import Link from 'next/link'
-import { FC, useState } from 'react'
+import { useState } from 'react'
 
-interface NavbarProps {}
-
-const Navbar: FC<NavbarProps> = () => {
+const Navbar = () => {
   const [showNavbar, setShowNavbar] = useState(false)
 
   const navItems = [
@@ -18,10 +16,10 @@ const Navbar: FC<NavbarProps> = () => {
   ]
 
   return (
-    <div className="relative bg-black">
+    <div className="fixed top-0 z-10 w-dvw bg-transparent">
       <button
         onClick={() => setShowNavbar(!showNavbar)}
-        className="relative z-50 bg-inherit p-4 md:hidden"
+        className="p-4 md:hidden"
       >
         {showNavbar ? (
           <XIcon size={28} className="text-primary" />
@@ -31,7 +29,7 @@ const Navbar: FC<NavbarProps> = () => {
       </button>
 
       <ul
-        className={`${showNavbar ? 'left-0' : '-left-full'} border-primary absolute flex w-full flex-col border bg-inherit transition-all duration-[300ms] md:static md:w-auto md:flex-row md:items-center md:justify-end md:gap-1 md:border-none md:p-6 md:pr-[5dvw]`}
+        className={`${showNavbar ? 'left-0' : '-left-full'} border-primary absolute flex w-full flex-col border transition-all duration-[300ms] md:static md:w-auto md:flex-row md:items-center md:justify-end md:gap-2 md:border-none md:pt-6 md:pr-[5dvw]`}
       >
         {navItems.map((navItem, index) => (
           <li
@@ -40,7 +38,7 @@ const Navbar: FC<NavbarProps> = () => {
           >
             <Link
               href={navItem.link}
-              className='text-primary md:before:text-secondary md:after:text-secondary inline-block w-full p-4 text-center font-medium transition-transform duration-300 md:py-0 md:text-xl md:font-normal md:before:opacity-0 md:before:transition-all md:before:duration-500 md:before:content-["<"] md:after:opacity-0 md:after:transition-all md:after:duration-500 md:after:content-["_/>"] md:hover:scale-[1.05] md:hover:before:opacity-40 md:hover:after:opacity-50'
+              className='text-primary md:before:text-secondary md:after:text-secondary hover:text-secondary-50 inline-block w-full p-4 text-center font-medium transition-all duration-300 hover:mx-1 md:p-0 md:py-0 md:text-xl md:font-normal md:before:opacity-0 md:before:transition-all md:before:duration-300 md:before:content-["//_"] md:after:opacity-0 md:after:transition-all md:after:duration-300 md:after:content-none md:hover:before:opacity-50 md:hover:after:opacity-50'
             >
               {navItem.item}
             </Link>

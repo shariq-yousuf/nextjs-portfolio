@@ -1,5 +1,9 @@
-import Navbar from '@/components/header/navbar'
+import Hero from '@/components/hero'
 
 export default function Home() {
-  return <Navbar />
+  return (
+    <main className="mx-auto max-w-[1500px]">
+      <Hero />
+    </main>
+  )
 }
