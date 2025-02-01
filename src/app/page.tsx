@@ -1,3 +1,5 @@
+import Navbar from '@/components/ui/navbar'
+
 export default function Home() {
-  return <h1>Portfolio</h1>
+  return <Navbar />
 }
