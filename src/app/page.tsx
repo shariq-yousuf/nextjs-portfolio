@@ -1,4 +1,4 @@
-import Navbar from '@/components/ui/navbar'
+import Navbar from '@/components/header/navbar'
 
 export default function Home() {
   return <Navbar />
