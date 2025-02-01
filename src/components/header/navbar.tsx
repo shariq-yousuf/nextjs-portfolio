@@ -9,14 +9,14 @@ const Navbar = () => {
 
   const navItems = [
     { item: 'Home', link: '/' },
-    { item: 'My Work', link: '/projects' },
-    { item: 'My Skills', link: '/skills' },
-    { item: 'About', link: '/about' },
-    { item: 'Contact', link: '/contact' },
+    { item: 'Projects', link: '#projects' },
+    { item: 'Services', link: '#services' },
+    { item: 'About', link: '#about' },
+    { item: 'Contact', link: '#contact' },
   ]
 
   return (
-    <div className="bg-primary-bg md:from-primary-bg fixed top-0 z-20 w-dvw md:bg-transparent md:bg-linear-to-b md:from-20% md:to-transparent">
+    <div className="bg-primary-bg md:from-primary-bg fixed top-0 z-20 w-dvw md:bg-transparent md:bg-linear-to-b md:from-80% md:to-transparent">
       <button
         onClick={() => setShowNavbar(!showNavbar)}
         className="p-4 md:hidden"
