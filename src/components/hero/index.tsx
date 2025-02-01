@@ -1,12 +1,13 @@
+import { heroDescriptions } from '@/app-data'
 import { spaceGrotesk } from '@/fonts'
 import { FC } from 'react'
-
+import HeroDescription from './hero-desc'
 interface HeroProps {}
 
 const Hero: FC<HeroProps> = () => {
   return (
     <div className="hero-bg h-dvh p-4">
-      <div className="grid h-full w-full place-content-center gap-4 md:w-1/2">
+      <div className="flex h-full w-full flex-col items-center justify-center gap-4 md:w-1/2 md:items-start md:pl-[10%]">
         <h1 className="text-secondary-50 flex flex-col gap-1 text-center text-lg md:text-left">
           <span>Hi, I am</span>
           <span
@@ -14,12 +15,12 @@ const Hero: FC<HeroProps> = () => {
           >
             <span className="text-primary font-bold">Shariq</span> Yousuf
           </span>
-          <span className="italic">full stack web developer</span>
+          <span className="text-sm uppercase italic">
+            full stack web developer
+          </span>
         </h1>
 
-        <p className="text-primary max-w-lg text-center text-lg md:text-left">
-          🔥 Transforming complex problems into seamless web solutions.
-        </p>
+        <HeroDescription descriptions={heroDescriptions} />
 
         <a
           href=""
