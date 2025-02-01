@@ -10,18 +10,18 @@ interface ProjectsSectionProps {}
 
 const ProjectsSection: FC<ProjectsSectionProps> = () => {
   return (
-    <SectionContainer id="projects" className="">
+    <SectionContainer id="projects">
       <div className="flex items-center justify-between">
         <SectionHeading heading="Projects" />
         <Link
           href="/projects"
-          className="flex items-center gap-1 underline hover:no-underline"
+          className="mb-6 flex items-center gap-1 underline hover:no-underline"
         >
           See all projects <ArrowUpRightIcon />
         </Link>
       </div>
 
-      <div className="grid grid-cols-4 gap-6">
+      <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
         {projects
           .slice(-8)
           .reverse()
