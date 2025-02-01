@@ -4,8 +4,9 @@
   --color-primary: #ffae00;
   --color-secondary: #efeb85;
   --color-secondary-50: #efeb858a;
+  --color-primary-bg: #000000;
 }
 
 body {
-  @apply bg-black text-white;
+  @apply bg-primary-bg text-white;
 }
