@@ -3,7 +3,6 @@
 import useMarqueeAnimation from '@/hooks/useMarqueeAnimation'
 import { motion } from 'motion/react'
 import Image from 'next/image'
-
 import { useRef } from 'react'
 
 interface MarqueeProps {

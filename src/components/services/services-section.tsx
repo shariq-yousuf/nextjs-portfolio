@@ -1,11 +1,8 @@
 import { skills } from '@/app-data/skills'
-import { FC } from 'react'
 import SectionHeading from '../ui/section-heading'
 import Marquee from './marquee'
 
-interface ServicesSectionProps {}
-
-const ServicesSection: FC<ServicesSectionProps> = () => {
+const ServicesSection = () => {
   return (
     <section id="services" className="my-8 md:my-16">
       <SectionHeading
