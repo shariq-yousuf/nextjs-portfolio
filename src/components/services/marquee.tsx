@@ -22,6 +22,7 @@ const Marquee: React.FC<MarqueeProps> = ({ items }) => {
         type: 'spring',
         visualDuration: 1,
       }}
+      viewport={{ once: true }}
       className="from-primary-bg to-primary-bgfrom-primary-bg relative overflow-x-hidden bg-gradient-to-r via-gray-900"
     >
       <div
