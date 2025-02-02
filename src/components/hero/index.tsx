@@ -23,7 +23,8 @@ const Hero: FC<HeroProps> = () => {
           <HeroDescription descriptions={heroDescriptions} />
 
           <a
-            href=""
+            href="https://www.linkedin.com/in/shariq-yousuf"
+            target="_blank"
             className={`border-primary bg-primary hover:text-primary text-primary-bg mx-auto max-w-max cursor-pointer rounded border-2 px-6 py-1 font-medium duration-300 hover:bg-transparent md:mx-0`}
           >
             Let's Connect
