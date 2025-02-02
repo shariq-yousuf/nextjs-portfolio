@@ -1,5 +1,5 @@
-import { FC } from 'react'
 import * as motion from 'motion/react-client'
+import { FC } from 'react'
 
 interface SectionHeadingProps {
   heading: string
@@ -25,7 +25,7 @@ const SectionHeading: FC<SectionHeadingProps> = ({
     >
       <h3 className="text-primary text-2xl font-semibold">{heading}</h3>
       {descriptoin && (
-        <p className="text-primary max-w-2xl text-base font-normal">
+        <p className="text-primary max-w-3xl text-lg font-normal">
           {descriptoin}
         </p>
       )}
