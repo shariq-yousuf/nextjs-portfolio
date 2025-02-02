@@ -13,12 +13,12 @@ export const heroDescriptions = [
 export const socialLinks = [
   {
     name: 'LinkedIn',
-    link: '/',
+    link: 'https://www.linkedin.com/in/shariq-yousuf',
     icon: LinkedInIcon,
   },
   {
     name: 'Github',
-    link: '/',
+    link: 'https://github.com/shariq-yousuf',
     icon: GithubIconWhite,
   },
 ]
