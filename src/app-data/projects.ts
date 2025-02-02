@@ -11,7 +11,7 @@ export const projects: Project[] = [
       live: 'https://shariq-yousuf.github.io/Secret-Chat/',
       github: 'https://github.com/shariq-yousuf/Secret-Chat',
     },
-    tags: ['JS'],
+    tags: ['JavaScript'],
   },
   {
     title: 'TicTacToe',
@@ -23,7 +23,7 @@ export const projects: Project[] = [
       live: 'https://shariq-yousuf.github.io/TicTacToe/',
       github: 'https://github.com/shariq-yousuf/TicTacToe',
     },
-    tags: ['JS'],
+    tags: ['JavaScript'],
   },
   {
     title: 'Palindrome Checker',
@@ -36,7 +36,7 @@ export const projects: Project[] = [
       github:
         'https://github.com/shariq-yousuf/Developer-Portfolio/tree/main/Projects/Palindrome-Checker',
     },
-    tags: ['JS'],
+    tags: ['JavaScript'],
   },
   {
     title: 'Lucky Draw',
@@ -49,7 +49,7 @@ export const projects: Project[] = [
       github:
         'https://github.com/shariq-yousuf/Developer-Portfolio/tree/main/Projects/Lucky-Draw',
     },
-    tags: ['JS'],
+    tags: ['JavaScript'],
   },
   {
     title: 'Word Counter',
@@ -62,7 +62,7 @@ export const projects: Project[] = [
       github:
         'https://github.com/shariq-yousuf/Developer-Portfolio/tree/main/Projects/Word-Counter',
     },
-    tags: ['JS'],
+    tags: ['JavaScript'],
   },
   {
     title: 'Roman Numeral Converter',
@@ -74,7 +74,7 @@ export const projects: Project[] = [
       github:
         'https://github.com/shariq-yousuf/Developer-Portfolio/tree/main/Projects/Roman-Numeral-Converter',
     },
-    tags: ['JS'],
+    tags: ['JavaScript'],
   },
   {
     title: 'Quiz App',
@@ -87,7 +87,7 @@ export const projects: Project[] = [
       github:
         'https://github.com/shariq-yousuf/Developer-Portfolio/tree/main/Projects/Quiz-App',
     },
-    tags: ['JS'],
+    tags: ['JavaScript'],
   },
   {
     title: 'Mobile Number Validator',
@@ -99,7 +99,7 @@ export const projects: Project[] = [
       github:
         'https://github.com/shariq-yousuf/Developer-Portfolio/tree/main/Projects/Mobile-Number-Validator',
     },
-    tags: ['JS'],
+    tags: ['JavaScript'],
   },
   {
     title: 'Todo App',
@@ -112,7 +112,7 @@ export const projects: Project[] = [
       github:
         'https://github.com/shariq-yousuf/my-fCC-js-cert-projects/tree/main/Projects/Todo-App',
     },
-    tags: ['JS'],
+    tags: ['JavaScript'],
   },
   {
     title: 'Calorie Counter',
@@ -125,7 +125,7 @@ export const projects: Project[] = [
       github:
         'https://github.com/shariq-yousuf/my-fCC-js-cert-projects/tree/main/Projects/Calorie-Counter',
     },
-    tags: ['JS'],
+    tags: ['JavaScript'],
   },
   {
     title: 'Skyhop',
@@ -138,7 +138,7 @@ export const projects: Project[] = [
       github:
         'https://github.com/shariq-yousuf/my-fCC-js-cert-projects/tree/main/Projects/Platformer-Game',
     },
-    tags: ['JS'],
+    tags: ['JavaScript', 'Canvas'],
   },
   {
     title: 'Carousel',
@@ -150,7 +150,7 @@ export const projects: Project[] = [
       github:
         'https://github.com/shariq-yousuf/Developer-Portfolio/tree/main/Projects/Carousel',
     },
-    tags: ['JS'],
+    tags: ['JavaScript'],
   },
   {
     title: 'Typing Pro',
@@ -162,7 +162,7 @@ export const projects: Project[] = [
       github:
         'https://github.com/shariq-yousuf/Developer-Portfolio/tree/main/Projects/Typing-Pro',
     },
-    tags: ['JS'],
+    tags: ['JavaScript'],
   },
   {
     title: 'Change Champ',
@@ -175,7 +175,7 @@ export const projects: Project[] = [
       github:
         'https://github.com/shariq-yousuf/Developer-Portfolio/tree/main/Projects/Change-Champ',
     },
-    tags: ['JS'],
+    tags: ['JavaScript'],
   },
   {
     title: 'Meme Generator',
@@ -201,7 +201,7 @@ export const projects: Project[] = [
       github:
         'https://github.com/shariq-yousuf/React-Projects_with-Scrimba/tree/main/Projects/notes-app',
     },
-    tags: ['React'],
+    tags: ['React', 'Firebase', 'Firestore', 'React-MDE', 'React-Split'],
   },
   {
     title: 'Tenzies',
@@ -226,7 +226,7 @@ export const projects: Project[] = [
       live: 'https://shariq-yousuf.github.io/ChaiChat/',
       github: 'https://github.com/shariq-yousuf/ChaiChat',
     },
-    tags: ['TS'],
+    tags: ['TypeScript', 'Firebase', 'Firestore', 'Authentication'],
   },
   {
     title: 'Hadith App',
@@ -252,7 +252,7 @@ export const projects: Project[] = [
       github:
         'https://github.com/shariq-yousuf/fCC_frontend-libraries_cert-projects/tree/main/react-calculator',
     },
-    tags: ['React'],
+    tags: ['React', 'Tailwind'],
   },
   {
     title: 'Pomodoro Timer',
@@ -277,6 +277,6 @@ export const projects: Project[] = [
       github:
         'https://github.com/shariq-yousuf/PSDC_React_exam_Ecommerce_project',
     },
-    tags: ['React'],
+    tags: ['React', 'Redux', 'React Router'],
   },
 ]

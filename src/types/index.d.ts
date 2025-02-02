@@ -6,5 +6,5 @@ export interface Project {
     live: string
     github: string
   }
-  tags: ('JS' | 'TS' | 'React')[]
+  tags: string[]
 }
