@@ -1,3 +1,4 @@
+import Footer from '@/components/footer'
 import Navbar from '@/components/header/navbar'
 import { poppins } from '@/fonts'
 import type { Metadata } from 'next'
@@ -18,6 +19,7 @@ export default function RootLayout({
       <body className={`${poppins.className} antialiased`}>
         <Navbar />
         {children}
+        <Footer />
       </body>
     </html>
   )
