@@ -13,7 +13,7 @@ const Marquee: React.FC<MarqueeProps> = ({ items }) => {
   useMarqueeAnimation(itemsElementRef)
 
   return (
-    <div className="from-primary via-secondary to-primary relative overflow-x-hidden bg-gradient-to-r">
+    <div className="from-primary-bg to-primary-bgfrom-primary-bg relative overflow-x-hidden bg-gradient-to-r via-gray-900">
       <div
         className="w-max p-5 whitespace-nowrap lg:px-10 lg:py-7"
         ref={itemsElementRef}
@@ -22,7 +22,7 @@ const Marquee: React.FC<MarqueeProps> = ({ items }) => {
           {items.map(({ title, icon }, index) => (
             <span
               key={index}
-              className="text-primary-bg flex items-center text-lg lg:text-base"
+              className="text-primary flex items-center text-lg lg:text-base"
             >
               <figure className="relative mx-2 size-11 lg:size-14">
                 <Image src={icon} alt={title} fill />
