@@ -8,7 +8,7 @@ const Footer = () => {
     <footer id="contact" className="bg-primary-bg relative z-50">
       <div className="flex flex-col items-center px-4 py-12">
         <motion.h3
-          initial={{ opacity: 0, x: -300 }}
+          initial={{ opacity: 0, x: 300 }}
           whileInView={{ opacity: 1, x: 0 }}
           transition={{
             duration: 0.25,
@@ -54,9 +54,8 @@ const Footer = () => {
           </ul>
         </div>
 
-        {/* email */}
         <motion.div
-          initial={{ opacity: 0, x: 300 }}
+          initial={{ opacity: 0, x: -300 }}
           whileInView={{ opacity: 1, x: 0 }}
           transition={{
             duration: 0.25,
