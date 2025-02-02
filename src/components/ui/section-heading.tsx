@@ -1,4 +1,5 @@
 import { FC } from 'react'
+import * as motion from 'motion/react-client'
 
 interface SectionHeadingProps {
   heading: string
@@ -12,14 +13,23 @@ const SectionHeading: FC<SectionHeadingProps> = ({
   className,
 }) => {
   return (
-    <div className={`mb-8 space-y-4 ${className}`}>
+    <motion.div
+      initial={{ opacity: 0, x: -100 }}
+      whileInView={{ opacity: 1, x: 0 }}
+      transition={{
+        duration: 0.5,
+        type: 'spring',
+        visualDuration: 0.5,
+      }}
+      className={`mb-8 space-y-4 ${className}`}
+    >
       <h3 className="text-primary text-2xl font-semibold">{heading}</h3>
       {descriptoin && (
         <p className="text-primary max-w-2xl text-base font-normal">
           {descriptoin}
         </p>
       )}
-    </div>
+    </motion.div>
   )
 }
 

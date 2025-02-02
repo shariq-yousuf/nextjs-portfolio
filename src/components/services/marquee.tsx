@@ -1,7 +1,9 @@
 'use client'
 
 import useMarqueeAnimation from '@/hooks/useMarqueeAnimation'
+import { motion } from 'motion/react'
 import Image from 'next/image'
+
 import { useRef } from 'react'
 
 interface MarqueeProps {
@@ -13,7 +15,16 @@ const Marquee: React.FC<MarqueeProps> = ({ items }) => {
   useMarqueeAnimation(itemsElementRef)
 
   return (
-    <div className="from-primary-bg to-primary-bgfrom-primary-bg relative overflow-x-hidden bg-gradient-to-r via-gray-900">
+    <motion.div
+      initial={{ opacity: 0, y: -100 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      transition={{
+        duration: 1,
+        type: 'spring',
+        visualDuration: 1,
+      }}
+      className="from-primary-bg to-primary-bgfrom-primary-bg relative overflow-x-hidden bg-gradient-to-r via-gray-900"
+    >
       <div
         className="w-max p-5 whitespace-nowrap lg:px-10 lg:py-7"
         ref={itemsElementRef}
@@ -32,7 +43,7 @@ const Marquee: React.FC<MarqueeProps> = ({ items }) => {
           ))}
         </div>
       </div>
-    </div>
+    </motion.div>
   )
 }
 

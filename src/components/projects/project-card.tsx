@@ -17,7 +17,7 @@ const ProjectCard: FC<ProjectCardProps> = ({
   },
 }) => {
   return (
-    <div className="border-primary has-[.live:hover]:shadow-secondary relative overflow-hidden rounded-2xl border-[3px] bg-transparent p-2 transition-all duration-300 has-[.live:hover]:scale-[1.03] has-[.live:hover]:shadow-lg">
+    <div className="border-primary has-[.live:hover]:shadow-secondary relative overflow-hidden rounded-2xl border-[3px] bg-transparent p-2 transition-all duration-300 has-[.live:hover]:scale-[1.02] has-[.live:hover]:shadow-lg">
       <a href={live} className="live flex h-full flex-col gap-1.5">
         <figure className="relative h-[125px] w-full">
           <Image src={image} className="rounded-lg" alt={title} fill />

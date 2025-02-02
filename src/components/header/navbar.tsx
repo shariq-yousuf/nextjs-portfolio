@@ -1,6 +1,7 @@
 'use client'
 
 import { MenuIcon, XIcon } from 'lucide-react'
+import { motion } from 'motion/react'
 import Link from 'next/link'
 import { useState } from 'react'
 
@@ -16,7 +17,17 @@ const Navbar = () => {
   ]
 
   return (
-    <div className="from-primary-bg fixed top-0 z-20 w-dvw bg-linear-to-b from-80% to-transparent md:relative">
+    <motion.div
+      initial={{ opacity: 0, y: -100 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{
+        duration: 1,
+        type: 'spring',
+        visualDuration: 0.5,
+        delay: 0.5,
+      }}
+      className="from-primary-bg fixed top-0 z-20 w-dvw bg-linear-to-b from-80% to-transparent md:relative"
+    >
       <button
         onClick={() => setShowNavbar(!showNavbar)}
         className="p-4 md:hidden"
@@ -46,7 +57,7 @@ const Navbar = () => {
           </li>
         ))}
       </ul>
-    </div>
+    </motion.div>
   )
 }
 
