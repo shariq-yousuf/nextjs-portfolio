@@ -38,22 +38,6 @@ const ProjectCard: FC<ProjectCardProps> = ({
             </span>
           ))}
         </div>
-        {/* <div className="text-primary flex justify-around">
-        <a
-          className="flex items-center gap-1 transition-transform duration-300 hover:scale-110"
-          href={live}
-        >
-          <EyeIcon />
-          Live
-        </a>
-        <a
-          className="transition-transform duration-300 hover:scale-110"
-          target="_blank"
-          href={github}
-        >
-          Github
-        </a>
-      </div> */}
       </a>
 
       <a
