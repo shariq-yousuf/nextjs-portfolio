@@ -1,5 +1,6 @@
 'use client'
 
+import useDisableScroll from '@/hooks/useDisableScroll'
 import { MenuIcon, XIcon } from 'lucide-react'
 import { motion } from 'motion/react'
 import Link from 'next/link'
@@ -8,10 +9,12 @@ import { useState } from 'react'
 const Navbar = () => {
   const [showNavbar, setShowNavbar] = useState(false)
 
+  useDisableScroll(showNavbar)
+
   const navItems = [
     { item: 'Home', link: '/' },
     { item: 'Projects', link: '/projects' },
-    { item: 'Services', link: '#services' },
+    { item: 'Services', link: '/#services' },
     // { item: 'About', link: '#about' },
     { item: 'Contact', link: '#contact' },
   ]
