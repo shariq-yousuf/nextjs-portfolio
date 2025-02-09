@@ -26,7 +26,7 @@ const Navbar = () => {
         visualDuration: 0.5,
         delay: 0.5,
       }}
-      className="from-primary-bg fixed top-0 z-20 w-dvw bg-linear-to-b from-80% to-transparent md:relative"
+      className="from-primary-bg fixed top-0 z-20 w-dvw bg-linear-to-b from-80% to-transparent md:relative md:w-full"
     >
       <button
         onClick={() => setShowNavbar(!showNavbar)}

@@ -9,7 +9,7 @@ import ProjectCard from './project-card'
 const ProjectsSection = () => {
   return (
     <SectionContainer id="projects">
-      <div className="flex items-center justify-between">
+      <div className="flex w-full items-center justify-between overflow-x-hidden">
         <SectionHeading heading="Projects" />
         <motion.div
           initial={{ opacity: 0, x: 100 }}
