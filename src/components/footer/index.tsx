@@ -6,21 +6,21 @@ import Image from 'next/image'
 const Footer = () => {
   return (
     <footer id="contact" className="bg-primary-bg relative z-50">
-      <div className="flex flex-col items-center px-4 py-12">
-        <motion.h3
-          initial={{ opacity: 0, x: 300 }}
+      <div className="flex flex-col items-center gap-4 px-4 py-6">
+        {/* <motion.h3
+          initial={{ opacity: 0, x: 50 }}
           whileInView={{ opacity: 1, x: 0 }}
           transition={{
             duration: 0.25,
             type: 'spring',
             visualDuration: 0.5,
           }}
-          className="text-2xl font-semibold"
+          className="text-primary text-2xl font-semibold"
         >
           Get In Touch!
-        </motion.h3>
+        </motion.h3> */}
 
-        <div className="mt-8">
+        <div>
           <ul className="flex items-center gap-6">
             {socialLinks.map(({ name, icon, link }) => (
               <motion.li
@@ -55,14 +55,14 @@ const Footer = () => {
         </div>
 
         <motion.div
-          initial={{ opacity: 0, x: -300 }}
+          initial={{ opacity: 0, x: -50 }}
           whileInView={{ opacity: 1, x: 0 }}
           transition={{
             duration: 0.25,
             type: 'spring',
             visualDuration: 0.5,
           }}
-          className="mt-6 mb-2 flex items-center gap-2 text-white"
+          className="text-primary flex items-center gap-2"
         >
           <AtSignIcon size={16} />
           <a
@@ -74,7 +74,7 @@ const Footer = () => {
         </motion.div>
       </div>
 
-      <div className="bg-zinc-900">
+      <div className="bg-gray-900">
         <div className="px-3 py-3 text-center">
           <span className="text-[#3d4049]">
             Portfolio &copy; {new Date().getFullYear()}

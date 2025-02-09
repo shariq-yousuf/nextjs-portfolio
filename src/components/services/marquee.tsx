@@ -23,7 +23,7 @@ const Marquee: React.FC<MarqueeProps> = ({ items }) => {
         visualDuration: 1,
       }}
       viewport={{ once: true }}
-      className="from-primary-bg to-primary-bgfrom-primary-bg relative overflow-x-hidden bg-gradient-to-r via-gray-900"
+      className="from-primary-bg to-primary-bg relative overflow-x-hidden bg-gradient-to-r via-gray-900"
     >
       <div
         className="w-max p-5 whitespace-nowrap lg:px-10 lg:py-7"
