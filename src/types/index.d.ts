@@ -3,8 +3,8 @@ export interface Project {
   description: string
   image: string
   links: {
-    live: string
-    github: string
+    live?: string
+    github?: string
   }
   tags: string[]
 }

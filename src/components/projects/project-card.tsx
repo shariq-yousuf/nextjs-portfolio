@@ -40,19 +40,21 @@ const ProjectCard: FC<ProjectCardProps> = ({
         </div>
       </a>
 
-      <a
-        className="bg-primary group absolute -top-2 -right-7 flex h-[40px] w-[80px] rotate-45 items-center justify-center"
-        target="_blank"
-        href={github}
-      >
-        <Image
-          src={GithubIcon}
-          alt="github"
-          width={24}
-          height={24}
-          className="mt-1.5 -rotate-45 transition-transform duration-300 group-hover:scale-110"
-        />
-      </a>
+      {github && (
+        <a
+          className="bg-primary group absolute -top-2 -right-7 flex h-[40px] w-[80px] rotate-45 items-center justify-center"
+          target="_blank"
+          href={github}
+        >
+          <Image
+            src={GithubIcon}
+            alt="github"
+            width={24}
+            height={24}
+            className="mt-1.5 -rotate-45 transition-transform duration-300 group-hover:scale-110"
+          />
+        </a>
+      )}
     </div>
   )
 }
