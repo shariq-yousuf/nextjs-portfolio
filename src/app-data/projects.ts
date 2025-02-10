@@ -279,4 +279,64 @@ export const projects: Project[] = [
     },
     tags: ['React', 'Redux', 'React Router'],
   },
+  {
+    title: 'Timestamp',
+    description:
+      'This Node.js application provides a simple API for converting dates and timestamps. Converts a valid date string to both Unix timestamp (milliseconds since epoch) and UTC format (e.g., "Thu, 01 Jan 1970 00:00:00 GMT").',
+    image:
+      'https://res.cloudinary.com/do0pop1de/image/upload/v1739168947/src%20for%20portfolio%20website/Projects%20Screenshots/timestamp-microservice.png',
+    links: {
+      live: 'https://timestamp.up.railway.app/',
+      github: 'https://github.com/shariq-yousuf/timestamp',
+    },
+    tags: ['Node.js', 'Express'],
+  },
+  {
+    title: 'Header Parser',
+    description:
+      'App that provides personalized information about the user, including IP address, preferred language, and software.',
+    image:
+      'https://res.cloudinary.com/do0pop1de/image/upload/v1739169853/src%20for%20portfolio%20website/Projects%20Screenshots/header-parser.png',
+    links: {
+      live: 'https://header-parser-fcc.up.railway.app/',
+      github: 'https://github.com/shariq-yousuf/header-parser',
+    },
+    tags: ['Node.js', 'Express'],
+  },
+  {
+    title: 'URL Shortener',
+    description:
+      'Node.js application that generates short, unique URLs to redirect to longer destination URLs.',
+    image:
+      'https://res.cloudinary.com/do0pop1de/image/upload/v1739169853/src%20for%20portfolio%20website/Projects%20Screenshots/url-shortener.png',
+    links: {
+      live: 'https://url-shortener-sy.up.railway.app/',
+      github: 'https://github.com/shariq-yousuf/url-shortener',
+    },
+    tags: ['Node.js', 'Express'],
+  },
+  {
+    title: 'Exercise Tracker',
+    description:
+      'Node.js application that allows users to log exercise data (type, description, duration, date) in a MongoDB database.',
+    image:
+      'https://res.cloudinary.com/do0pop1de/image/upload/v1739169853/src%20for%20portfolio%20website/Projects%20Screenshots/exercise-tracker.png',
+    links: {
+      live: '#',
+      github: 'https://github.com/shariq-yousuf/exercise-tracker',
+    },
+    tags: ['MongoDB', 'Mongoose', 'Node.js', 'Express'],
+  },
+  {
+    title: 'File Metadata',
+    description:
+      'Node.js application that analyzes uploaded files and returns metadata such as name, type, and size.',
+    image:
+      'https://res.cloudinary.com/do0pop1de/image/upload/v1739169853/src%20for%20portfolio%20website/Projects%20Screenshots/file-metadata.png',
+    links: {
+      live: '#',
+      github: 'https://github.com/shariq-yousuf/file-metadata',
+    },
+    tags: ['Multer', 'Node.js', 'Express'],
+  },
 ]
