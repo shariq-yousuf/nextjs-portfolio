@@ -2,7 +2,6 @@ import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'Projects | Full Stack Developer',
-  description: '',
 }
 
 export default function RootLayout({
