@@ -14,16 +14,16 @@ const SectionHeading: FC<SectionHeadingProps> = ({
 }) => {
   return (
     <motion.div
-      initial={{ opacity: 0, x: -80 }}
-      whileInView={{ opacity: 1, x: 0 }}
+      initial={{ opacity: 0, y: 60 }}
+      whileInView={{ opacity: 1, y: 0 }}
       transition={{
-        duration: 0.5,
+        duration: 1.5,
         type: 'spring',
-        visualDuration: 0.5,
+        visualDuration: 0.8,
       }}
-      className={`mb-8 space-y-4 ${className}`}
+      className={`mb-12 space-y-4 ${className}`}
     >
-      <h3 className="text-primary text-2xl font-semibold">{heading}</h3>
+      <h3 className="text-primary text-4xl font-semibold">{heading}</h3>
       {descriptoin && (
         <p className="text-primary max-w-3xl text-lg font-normal">
           {descriptoin}

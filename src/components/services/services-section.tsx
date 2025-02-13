@@ -11,7 +11,9 @@ const ServicesSection = () => {
         className="flex flex-col items-center px-4 text-center"
       />
 
-      <Marquee items={skills.toReversed()} />
+      <div className="my-20">
+        <Marquee items={skills.toReversed()} />
+      </div>
     </section>
   )
 }

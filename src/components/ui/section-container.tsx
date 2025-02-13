@@ -12,7 +12,7 @@ const SectionContainer: FC<SectionContainerProps> = ({
   className,
 }) => {
   return (
-    <section id={id} className={`my-8 px-4 md:my-16 md:px-8 ${className}`}>
+    <section id={id} className={`my-12 px-4 md:my-24 md:px-8 ${className}`}>
       {children}
     </section>
   )
