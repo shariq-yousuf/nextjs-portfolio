@@ -8,3 +8,12 @@ export interface Project {
   }
   tags: string[]
 }
+
+export interface Testimonial {
+  fullname: string
+  role: string
+  testimonial: string
+  stars: number
+  imageUrl?: string
+  githubUsername?: string
+}
