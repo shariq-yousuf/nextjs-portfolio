@@ -8,7 +8,7 @@ import ProjectCard from './project-card'
 
 const ProjectsSection = () => {
   return (
-    <SectionContainer id="projects">
+    <SectionContainer id="projects" className="overflow-hidden">
       <SectionHeading heading="Projects" />
 
       <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
