@@ -21,7 +21,7 @@ const SectionHeading: FC<SectionHeadingProps> = ({
         type: 'spring',
         visualDuration: 0.8,
       }}
-      className={`mb-12 space-y-4 ${className}`}
+      className={`mb-6 space-y-4 md:mb-12 ${className}`}
     >
       <h3 className="text-primary text-4xl font-semibold">{heading}</h3>
       {descriptoin && (

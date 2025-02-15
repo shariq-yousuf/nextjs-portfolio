@@ -1,5 +1,6 @@
 import GithubIcon from '@/assets/icons/github.svg'
 import { Project } from '@/types'
+import * as motion from 'motion/react-client'
 import Image from 'next/image'
 import { FC } from 'react'
 
@@ -17,7 +18,16 @@ const ProjectCard: FC<ProjectCardProps> = ({
   },
 }) => {
   return (
-    <div className="border-primary relative overflow-hidden rounded-2xl border-[3px] bg-transparent p-2 transition-all duration-300 has-[.live:hover]:scale-[1.02]">
+    <motion.div
+      initial={{ opacity: 0, scale: 0.9 }}
+      whileInView={{ opacity: 1, scale: 1 }}
+      transition={{
+        duration: 0.4,
+        type: 'spring',
+        visualDuration: 0.2,
+      }}
+      className="border-primary relative overflow-hidden rounded-2xl border-[3px] bg-transparent p-2 transition-all duration-300 has-[.live:hover]:scale-[1.02]"
+    >
       <a href={live} className="live flex h-full flex-col gap-1.5">
         <figure className="relative h-[125px] w-full">
           <Image src={image} className="rounded-lg" alt={title} fill />
@@ -55,7 +65,7 @@ const ProjectCard: FC<ProjectCardProps> = ({
           />
         </a>
       )}
-    </div>
+    </motion.div>
   )
 }
 

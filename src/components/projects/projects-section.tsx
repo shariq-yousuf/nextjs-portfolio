@@ -9,43 +9,32 @@ import ProjectCard from './project-card'
 const ProjectsSection = () => {
   return (
     <SectionContainer id="projects">
-      <div className="flex w-full items-center justify-between overflow-x-hidden">
-        <SectionHeading heading="Projects" />
-        <motion.div
-          initial={{ opacity: 0, x: 100 }}
-          whileInView={{ opacity: 1, x: 0 }}
-          transition={{
-            duration: 1,
-            type: 'spring',
-            visualDuration: 1,
-          }}
-        >
-          <Link
-            href="/projects"
-            className="mb-6 flex items-center gap-1 underline hover:no-underline"
-          >
-            See all projects <ArrowUpRightIcon />
-          </Link>
-        </motion.div>
-      </div>
+      <SectionHeading heading="Projects" />
 
-      <motion.div
-        initial={{ opacity: 0, y: 100 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        transition={{
-          duration: 1,
-          type: 'spring',
-          visualDuration: 1,
-        }}
-        // viewport={{ once: true }}
-        className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4"
-      >
+      <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
         {projects
           .slice(-8)
           .reverse()
           .map(project => (
             <ProjectCard key={project.title} project={project} />
           ))}
+      </div>
+
+      <motion.div
+        initial={{ opacity: 0, x: 100 }}
+        whileInView={{ opacity: 1, x: 0 }}
+        transition={{
+          duration: 1,
+          type: 'spring',
+          visualDuration: 1,
+        }}
+      >
+        <Link
+          href="/projects"
+          className="mt-6 flex items-center justify-end gap-1 underline hover:no-underline"
+        >
+          See all projects <ArrowUpRightIcon />
+        </Link>
       </motion.div>
     </SectionContainer>
   )
