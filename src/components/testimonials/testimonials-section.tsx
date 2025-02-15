@@ -17,6 +17,14 @@ const TestimonialsSection: FC<TestimonialsSectionProps> = () => {
       stars: 5,
       githubUsername: 'shariq-yousuf',
     },
+    {
+      fullname: 'Shariq Yousuf',
+      role: 'Full Stack Developer',
+      testimonial:
+        'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic, totam? Est reprehenderit harum culpa nostrum aliquam. Amet sint qui velit hic harum quia sequi, perferendis suscipit, nihil, facere autem vero.',
+      stars: 5,
+      githubUsername: 'shariq-yousuf',
+    },
   ]
 
   return (
@@ -27,14 +35,14 @@ const TestimonialsSection: FC<TestimonialsSectionProps> = () => {
       />
 
       <motion.div
-        initial={{ opacity: 0, scale: 0.8 }}
-        whileInView={{ opacity: 1, scale: 1 }}
-        transition={{
-          duration: 1,
-          type: 'spring',
-          visualDuration: 0.8,
-          bounce: 0.4,
-        }}
+        // initial={{ opacity: 0, scale: 0.8 }}
+        // whileInView={{ opacity: 1, scale: 1 }}
+        // transition={{
+        //   duration: 1,
+        //   type: 'spring',
+        //   visualDuration: 0.8,
+        //   bounce: 0.4,
+        // }}
         // viewport={{ once: true }}
         className="grid grid-cols-1 gap-4 md:grid-cols-2 md:gap-8 lg:grid-cols-3"
       >

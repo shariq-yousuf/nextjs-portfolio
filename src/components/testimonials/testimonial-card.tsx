@@ -4,6 +4,7 @@ import { Testimonial } from '@/types'
 import Image from 'next/image'
 import { FC, useEffect, useState } from 'react'
 import QuoteMarkIcon from '@/assets/icons/quote-mark.svg'
+import { motion } from 'motion/react'
 
 interface TestimonialCardProps {
   testimonial: Testimonial
@@ -28,7 +29,17 @@ const TestimonialCard: FC<TestimonialCardProps> = ({
   }, [])
 
   return (
-    <div className="relative space-y-2 rounded-lg bg-gray-900 p-8 pt-16 text-center">
+    <motion.div
+      initial={{ opacity: 0, scale: 0.8 }}
+      whileInView={{ opacity: 1, scale: 1 }}
+      transition={{
+        duration: 1,
+        type: 'spring',
+        visualDuration: 0.8,
+        bounce: 0.4,
+      }}
+      className="relative space-y-2 rounded-lg bg-gray-900 p-8 pt-16 text-center"
+    >
       <Image
         src={QuoteMarkIcon}
         alt="quote mark"
@@ -57,7 +68,7 @@ const TestimonialCard: FC<TestimonialCardProps> = ({
           <span className="text-sm text-gray-500">{role}</span>
         </div>
       </div>
-    </div>
+    </motion.div>
   )
 }
 
