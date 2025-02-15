@@ -1,10 +1,10 @@
 'use client'
 
+import QuoteMarkIcon from '@/assets/icons/quote-mark.svg'
 import { Testimonial } from '@/types'
+import { motion } from 'motion/react'
 import Image from 'next/image'
 import { FC, useEffect, useState } from 'react'
-import QuoteMarkIcon from '@/assets/icons/quote-mark.svg'
-import { motion } from 'motion/react'
 
 interface TestimonialCardProps {
   testimonial: Testimonial

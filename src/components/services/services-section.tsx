@@ -8,7 +8,11 @@ const ServicesSection = () => {
 
   return (
     <section id="services" className="my-8 md:my-16">
-      <SectionHeading heading="Services" descriptoin={descriptoin} />
+      <SectionHeading
+        heading="Services"
+        descriptoin={descriptoin}
+        className="flex flex-col items-center px-4 text-center"
+      />
 
       <div className="my-20">
         <Marquee items={skills.toReversed()} />
