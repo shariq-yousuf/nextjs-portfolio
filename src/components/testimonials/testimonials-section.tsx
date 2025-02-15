@@ -1,14 +1,11 @@
 import { getAllTestimonials } from '@/services'
 import { Testimonial } from '@/types'
 import * as motion from 'motion/react-client'
-import { FC } from 'react'
 import SectionContainer from '../ui/section-container'
 import SectionHeading from '../ui/section-heading'
 import TestimonialCard from './testimonial-card'
 
-interface TestimonialsSectionProps {}
-
-const TestimonialsSection: FC<TestimonialsSectionProps> = async () => {
+const TestimonialsSection = async () => {
   const testimonials: Testimonial[] = await getAllTestimonials()
 
   return (
