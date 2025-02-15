@@ -18,18 +18,19 @@ const ProjectCard: FC<ProjectCardProps> = ({
   },
 }) => {
   return (
-    <motion.div
-      initial={{ opacity: 0, scale: 0.9 }}
-      whileInView={{ opacity: 1, scale: 1 }}
-      transition={{
-        duration: 0.4,
-        type: 'spring',
-        visualDuration: 0.2,
-      }}
-      className="border-primary relative overflow-hidden rounded-2xl border-[3px] bg-transparent p-2 transition-all duration-300 has-[.live:hover]:scale-[1.02]"
-    >
-      <a href={live} className="live flex h-full flex-col gap-1.5">
-        <figure className="relative h-[125px] w-full">
+    <div className="border-primary relative overflow-hidden rounded-2xl border-[3px] bg-transparent p-2 transition-all duration-300 has-[.live:hover]:scale-[1.02]">
+      <motion.a
+        href={live}
+        className="live flex h-full flex-col gap-1.5"
+        initial={{ opacity: 0, y: 50 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{
+          duration: 0.8,
+          type: 'spring',
+          visualDuration: 0.5,
+        }}
+      >
+        <figure className="relative h-[150px] w-full">
           <Image src={image} className="rounded-lg" alt={title} fill />
         </figure>
 
@@ -48,7 +49,7 @@ const ProjectCard: FC<ProjectCardProps> = ({
             </span>
           ))}
         </div>
-      </a>
+      </motion.a>
 
       {github && (
         <a
@@ -65,7 +66,7 @@ const ProjectCard: FC<ProjectCardProps> = ({
           />
         </a>
       )}
-    </motion.div>
+    </div>
   )
 }
 
