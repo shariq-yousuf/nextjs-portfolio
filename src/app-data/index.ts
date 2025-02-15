@@ -10,6 +10,24 @@ export const heroDescriptions = [
   'Your vision, my code—let’s create something incredible!',
 ]
 
+export const footerSections = [
+  {
+    title: 'Projects',
+    href: '/projects',
+    content: 'Explore my most impactful work.',
+  },
+  {
+    title: 'Skills',
+    href: '/#services',
+    content: 'Technologies and tools I excel at.',
+  },
+  {
+    title: 'Services',
+    href: '/#services',
+    content: 'What I can offer to bring value to your project.',
+  },
+]
+
 export const socialLinks = [
   {
     name: 'LinkedIn',
