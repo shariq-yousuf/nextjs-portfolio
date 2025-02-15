@@ -14,18 +14,6 @@ export const projects: Project[] = [
     tags: ['JavaScript'],
   },
   {
-    title: 'TicTacToe',
-    description:
-      'Classic Tic Tac Toe with two modes. Play with friends or AI, first to three in a row wins!',
-    image:
-      'https://res.cloudinary.com/do0pop1de/image/upload/f_auto,q_auto/v1/src%20for%20portfolio%20website/Projects%20Screenshots/tictactoe',
-    links: {
-      live: 'https://shariq-yousuf.github.io/TicTacToe/',
-      github: 'https://github.com/shariq-yousuf/TicTacToe',
-    },
-    tags: ['JavaScript'],
-  },
-  {
     title: 'Palindrome Checker',
     description:
       'Enter any text & see if it reads the same backwards. Discover hidden palindromes!',
@@ -48,19 +36,6 @@ export const projects: Project[] = [
       live: './Projects/Lucky-Draw/index.html',
       github:
         'https://github.com/shariq-yousuf/Developer-Portfolio/tree/main/Projects/Lucky-Draw',
-    },
-    tags: ['JavaScript'],
-  },
-  {
-    title: 'Word Counter',
-    description:
-      'Analyze words, characters, & more. Count pronouns, estimate readability, find longest word.',
-    image:
-      'https://res.cloudinary.com/do0pop1de/image/upload/f_auto,q_auto/v1/src%20for%20portfolio%20website/Projects%20Screenshots/word-counter',
-    links: {
-      live: './Projects/Word-Counter/index.html',
-      github:
-        'https://github.com/shariq-yousuf/Developer-Portfolio/tree/main/Projects/Word-Counter',
     },
     tags: ['JavaScript'],
   },
@@ -153,18 +128,6 @@ export const projects: Project[] = [
     tags: ['JavaScript'],
   },
   {
-    title: 'Typing Pro',
-    description: 'Learn to type like a pro! Our app makes it easy & engaging.',
-    image:
-      'https://res.cloudinary.com/do0pop1de/image/upload/f_auto,q_auto/v1/src%20for%20portfolio%20website/Projects%20Screenshots/typing-pro',
-    links: {
-      live: './Projects/Typing-Pro/index.html',
-      github:
-        'https://github.com/shariq-yousuf/Developer-Portfolio/tree/main/Projects/Typing-Pro',
-    },
-    tags: ['JavaScript'],
-  },
-  {
     title: 'Change Champ',
     description:
       ' All-in-one cash register app for smooth transactions. Calculate exact change, and track sales.',
@@ -204,31 +167,6 @@ export const projects: Project[] = [
     tags: ['React', 'Firebase', 'Firestore', 'React-MDE', 'React-Split'],
   },
   {
-    title: 'Tenzies',
-    description:
-      'TenZies is a dice-rolling game where you try to make all dice the same number. Beat your high score!',
-    image:
-      'https://res.cloudinary.com/do0pop1de/image/upload/f_auto,q_auto/v1/react_projects-scrimba/tenzies',
-    links: {
-      live: 'https://tenzies-sy.netlify.app/',
-      github:
-        'https://github.com/shariq-yousuf/React-Projects_with-Scrimba/tree/main/Projects/tenzies',
-    },
-    tags: ['React'],
-  },
-  {
-    title: 'ChaiChat',
-    description:
-      'A real-time messaging application built on Firebase platform. Features: user profiles, chats, and real-time updates.',
-    image:
-      'https://res.cloudinary.com/do0pop1de/image/upload/f_auto,q_auto/v1/src%20for%20portfolio%20website/Projects%20Screenshots/chaichat',
-    links: {
-      live: 'https://shariq-yousuf.github.io/ChaiChat/',
-      github: 'https://github.com/shariq-yousuf/ChaiChat',
-    },
-    tags: ['TypeScript', 'Firebase', 'Firestore', 'Authentication'],
-  },
-  {
     title: 'Hadith App',
     description:
       'Get a random Hadith from hadithapi.com and post it to Twitter with one click.',
@@ -253,19 +191,6 @@ export const projects: Project[] = [
         'https://github.com/shariq-yousuf/fCC_frontend-libraries_cert-projects/tree/main/react-calculator',
     },
     tags: ['React', 'Tailwind'],
-  },
-  {
-    title: 'Pomodoro Timer',
-    description:
-      'Boost productivity with Pomodoro timer! Set your focus and break intervals.',
-    image:
-      'https://res.cloudinary.com/do0pop1de/image/upload/f_auto,q_auto/v1/src%20for%20portfolio%20website/Projects%20Screenshots/pomodoro-timer',
-    links: {
-      live: 'https://pomodoro-sy.netlify.app/',
-      github:
-        'https://github.com/shariq-yousuf/fCC_frontend-libraries_cert-projects/tree/main/pomodoro-timer',
-    },
-    tags: ['React'],
   },
   {
     title: 'Ecommerce Store',
@@ -338,6 +263,81 @@ export const projects: Project[] = [
       github: 'https://github.com/shariq-yousuf/file-metadata',
     },
     tags: ['Node.js', 'Express', 'Multer'],
+  },
+  {
+    title: 'TicTacToe',
+    description:
+      'Classic Tic Tac Toe with two modes. Play with friends or AI, first to three in a row wins!',
+    image:
+      'https://res.cloudinary.com/do0pop1de/image/upload/f_auto,q_auto/v1/src%20for%20portfolio%20website/Projects%20Screenshots/tictactoe',
+    links: {
+      live: 'https://shariq-yousuf.github.io/TicTacToe/',
+      github: 'https://github.com/shariq-yousuf/TicTacToe',
+    },
+    tags: ['JavaScript'],
+  },
+  {
+    title: 'Typing Pro',
+    description: 'Learn to type like a pro! Our app makes it easy & engaging.',
+    image:
+      'https://res.cloudinary.com/do0pop1de/image/upload/f_auto,q_auto/v1/src%20for%20portfolio%20website/Projects%20Screenshots/typing-pro',
+    links: {
+      live: './Projects/Typing-Pro/index.html',
+      github:
+        'https://github.com/shariq-yousuf/Developer-Portfolio/tree/main/Projects/Typing-Pro',
+    },
+    tags: ['JavaScript'],
+  },
+  {
+    title: 'Tenzies',
+    description:
+      'TenZies is a dice-rolling game where you try to make all dice the same number. Beat your high score!',
+    image:
+      'https://res.cloudinary.com/do0pop1de/image/upload/f_auto,q_auto/v1/react_projects-scrimba/tenzies',
+    links: {
+      live: 'https://tenzies-sy.netlify.app/',
+      github:
+        'https://github.com/shariq-yousuf/React-Projects_with-Scrimba/tree/main/Projects/tenzies',
+    },
+    tags: ['React'],
+  },
+  {
+    title: 'Pomodoro Timer',
+    description:
+      'Boost productivity with Pomodoro timer! Set your focus and break intervals.',
+    image:
+      'https://res.cloudinary.com/do0pop1de/image/upload/f_auto,q_auto/v1/src%20for%20portfolio%20website/Projects%20Screenshots/pomodoro-timer',
+    links: {
+      live: 'https://pomodoro-sy.netlify.app/',
+      github:
+        'https://github.com/shariq-yousuf/fCC_frontend-libraries_cert-projects/tree/main/pomodoro-timer',
+    },
+    tags: ['React'],
+  },
+  {
+    title: 'ChaiChat',
+    description:
+      'A real-time messaging application built on Firebase platform. Features: user profiles, chats, and real-time updates.',
+    image:
+      'https://res.cloudinary.com/do0pop1de/image/upload/f_auto,q_auto/v1/src%20for%20portfolio%20website/Projects%20Screenshots/chaichat',
+    links: {
+      live: 'https://shariq-yousuf.github.io/ChaiChat/',
+      github: 'https://github.com/shariq-yousuf/ChaiChat',
+    },
+    tags: ['TypeScript', 'Firebase', 'Firestore', 'Authentication'],
+  },
+  {
+    title: 'Word Counter',
+    description:
+      'Analyze words, characters, & more. Count pronouns, estimate readability, find longest word.',
+    image:
+      'https://res.cloudinary.com/do0pop1de/image/upload/f_auto,q_auto/v1/src%20for%20portfolio%20website/Projects%20Screenshots/word-counter',
+    links: {
+      live: './Projects/Word-Counter/index.html',
+      github:
+        'https://github.com/shariq-yousuf/Developer-Portfolio/tree/main/Projects/Word-Counter',
+    },
+    tags: ['JavaScript'],
   },
   {
     title: 'Lucky Draw',
