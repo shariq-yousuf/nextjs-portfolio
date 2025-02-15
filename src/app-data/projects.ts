@@ -340,6 +340,42 @@ export const projects: Project[] = [
     tags: ['JavaScript'],
   },
   {
+    title: 'Taleemify',
+    description:
+      'Contributed to a directory website listing academies and courses. Enhanced the overall website and added two key features: dedicated pages for blogs and advisors, improving content accessibility and user engagement.',
+    image:
+      'https://res.cloudinary.com/do0pop1de/image/upload/v1739621797/src%20for%20portfolio%20website/Projects%20Screenshots/taleemify.png',
+    links: {
+      live: 'https://taleemify.pk/',
+      github: '',
+    },
+    tags: ['Next.js', 'TypeScript', 'Tailwind CSS'],
+  },
+  {
+    title: 'Flexy UI',
+    description:
+      'Contributed to a free React component library by enhancing the overall website design and developing multiple reusable components, including Marquee, Vertical Stepper, and Newsletter.',
+    image:
+      'https://res.cloudinary.com/do0pop1de/image/upload/v1739621796/src%20for%20portfolio%20website/Projects%20Screenshots/flexyui.png',
+    links: {
+      live: 'https://www.flexyui.com/react-tailwind-components/banner',
+      github: '',
+    },
+    tags: ['Next.js', 'TypeScript', 'UI/UX', 'Tailwind CSS'],
+  },
+  {
+    title: 'Flexy UI Templates',
+    description:
+      'Designed and built the UI for a dedicated page on the React component library showcasing website templates.',
+    image:
+      'https://res.cloudinary.com/do0pop1de/image/upload/v1739622125/src%20for%20portfolio%20website/Projects%20Screenshots/flexyui-templates.png',
+    links: {
+      live: 'https://www.flexyui.com/templates/tailwind',
+      github: '',
+    },
+    tags: ['Next.js', 'TypeScript', 'Tailwind CSS'],
+  },
+  {
     title: 'Lucky Draw',
     description:
       'An interactive and dynamic Lucky Draw app built with React, showcasing my expertise in front-end development and user experience design.',
@@ -349,7 +385,7 @@ export const projects: Project[] = [
       live: 'https://lucky-draw-name-picker.netlify.app/',
       github: '',
     },
-    tags: ['React', 'CSS Animation'],
+    tags: ['React', 'TypeScript', 'CSS Animation'],
   },
   {
     title: 'Dev Portfolio',
@@ -361,7 +397,7 @@ export const projects: Project[] = [
       live: 'https://nextjs-dev-portfolio.netlify.app/',
       github: '',
     },
-    tags: ['Next.js', 'MDX', 'Tailwind CSS'],
+    tags: ['Next.js', 'MDX', 'TypeScript', 'Tailwind CSS'],
   },
   {
     title: 'Quiz App',
@@ -373,6 +409,6 @@ export const projects: Project[] = [
       live: 'https://flexy-quiz.netlify.app/',
       github: '',
     },
-    tags: ['React', 'Tailwind CSS'],
+    tags: ['React', 'TypeScript', 'Tailwind CSS'],
   },
 ]
