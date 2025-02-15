@@ -289,6 +289,31 @@ export const projects: Project[] = [
     tags: ['JavaScript'],
   },
   {
+    title: 'ChaiChat',
+    description:
+      'A real-time messaging application built on Firebase platform. Features: user profiles, chats, and real-time updates.',
+    image:
+      'https://res.cloudinary.com/do0pop1de/image/upload/f_auto,q_auto/v1/src%20for%20portfolio%20website/Projects%20Screenshots/chaichat',
+    links: {
+      live: 'https://shariq-yousuf.github.io/ChaiChat/',
+      github: 'https://github.com/shariq-yousuf/ChaiChat',
+    },
+    tags: ['TypeScript', 'Firebase', 'Firestore', 'Authentication'],
+  },
+  {
+    title: 'Word Counter',
+    description:
+      'Analyze words, characters, & more. Count pronouns, estimate readability, find longest word.',
+    image:
+      'https://res.cloudinary.com/do0pop1de/image/upload/f_auto,q_auto/v1/src%20for%20portfolio%20website/Projects%20Screenshots/word-counter',
+    links: {
+      live: './Projects/Word-Counter/index.html',
+      github:
+        'https://github.com/shariq-yousuf/Developer-Portfolio/tree/main/Projects/Word-Counter',
+    },
+    tags: ['JavaScript'],
+  },
+  {
     title: 'Tenzies',
     description:
       'TenZies is a dice-rolling game where you try to make all dice the same number. Beat your high score!',
@@ -313,31 +338,6 @@ export const projects: Project[] = [
         'https://github.com/shariq-yousuf/fCC_frontend-libraries_cert-projects/tree/main/pomodoro-timer',
     },
     tags: ['React'],
-  },
-  {
-    title: 'ChaiChat',
-    description:
-      'A real-time messaging application built on Firebase platform. Features: user profiles, chats, and real-time updates.',
-    image:
-      'https://res.cloudinary.com/do0pop1de/image/upload/f_auto,q_auto/v1/src%20for%20portfolio%20website/Projects%20Screenshots/chaichat',
-    links: {
-      live: 'https://shariq-yousuf.github.io/ChaiChat/',
-      github: 'https://github.com/shariq-yousuf/ChaiChat',
-    },
-    tags: ['TypeScript', 'Firebase', 'Firestore', 'Authentication'],
-  },
-  {
-    title: 'Word Counter',
-    description:
-      'Analyze words, characters, & more. Count pronouns, estimate readability, find longest word.',
-    image:
-      'https://res.cloudinary.com/do0pop1de/image/upload/f_auto,q_auto/v1/src%20for%20portfolio%20website/Projects%20Screenshots/word-counter',
-    links: {
-      live: './Projects/Word-Counter/index.html',
-      github:
-        'https://github.com/shariq-yousuf/Developer-Portfolio/tree/main/Projects/Word-Counter',
-    },
-    tags: ['JavaScript'],
   },
   {
     title: 'Taleemify',
