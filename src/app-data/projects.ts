@@ -325,7 +325,7 @@ export const projects: Project[] = [
       live: '#',
       github: 'https://github.com/shariq-yousuf/exercise-tracker',
     },
-    tags: ['MongoDB', 'Mongoose', 'Node.js', 'Express'],
+    tags: ['Node.js', 'Express', 'MongoDB', 'Mongoose'],
   },
   {
     title: 'File Metadata',
@@ -337,6 +337,42 @@ export const projects: Project[] = [
       live: '#',
       github: 'https://github.com/shariq-yousuf/file-metadata',
     },
-    tags: ['Multer', 'Node.js', 'Express'],
+    tags: ['Node.js', 'Express', 'Multer'],
+  },
+  {
+    title: 'Lucky Draw',
+    description:
+      'An interactive and dynamic Lucky Draw app built with React, showcasing my expertise in front-end development and user experience design.',
+    image:
+      'https://res.cloudinary.com/do0pop1de/image/upload/v1739619718/src%20for%20portfolio%20website/Projects%20Screenshots/ab-lucky-draw.png',
+    links: {
+      live: 'https://lucky-draw-name-picker.netlify.app/',
+      github: '',
+    },
+    tags: ['React', 'CSS Animation'],
+  },
+  {
+    title: 'Dev Portfolio',
+    description:
+      'A sleek, responsive portfolio built with Next.js, featuring MDX integration for rich blog content. Designed with a strong focus on performance, scalability, and best practices.',
+    image:
+      'https://res.cloudinary.com/do0pop1de/image/upload/v1739619719/src%20for%20portfolio%20website/Projects%20Screenshots/ab-dev-portfolio.png',
+    links: {
+      live: 'https://nextjs-dev-portfolio.netlify.app/',
+      github: '',
+    },
+    tags: ['Next.js', 'MDX', 'Tailwind CSS'],
+  },
+  {
+    title: 'Quiz App',
+    description:
+      'A dynamic and engaging Quiz App built with React and styled with Tailwind CSS.',
+    image:
+      'https://res.cloudinary.com/do0pop1de/image/upload/v1739619718/src%20for%20portfolio%20website/Projects%20Screenshots/ab-quiz-app.png',
+    links: {
+      live: 'https://flexy-quiz.netlify.app/',
+      github: '',
+    },
+    tags: ['React', 'Tailwind CSS'],
   },
 ]

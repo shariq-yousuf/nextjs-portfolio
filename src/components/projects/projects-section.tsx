@@ -15,8 +15,8 @@ const ProjectsSection = () => {
         {projects
           .slice(-8)
           .reverse()
-          .map(project => (
-            <ProjectCard key={project.title} project={project} />
+          .map((project, idx) => (
+            <ProjectCard key={idx} project={project} />
           ))}
       </div>
 
