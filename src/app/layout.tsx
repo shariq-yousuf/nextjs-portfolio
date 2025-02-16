@@ -2,6 +2,7 @@ import Footer from '@/components/footer'
 import Navbar from '@/components/header/navbar'
 import { poppins } from '@/fonts'
 import type { Metadata } from 'next'
+import Script from 'next/script'
 import './globals.css'
 
 const title = 'Shariq Yousuf | Full Stack Developer'
@@ -52,6 +53,7 @@ export default function RootLayout({
         {children}
         <Footer />
       </body>
+      <Script src="https://scripts.simpleanalyticscdn.com/latest.js" />
     </html>
   )
 }
