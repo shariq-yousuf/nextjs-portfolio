@@ -37,5 +37,6 @@ export const getAllTestimonials = async () => {
     return testimonials
   } catch (error) {
     console.error('Error fetching testimonials:', error)
+    return []
   }
 }
