@@ -1,7 +1,8 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Projects | Full Stack Developer',
+  title:
+    'Projects of Shariq Yousuf | Modern JavaScript Developer | React / Next.js / Node.js',
 }
 
 export default function RootLayout({

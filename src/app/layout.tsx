@@ -5,14 +5,16 @@ import type { Metadata } from 'next'
 import Script from 'next/script'
 import './globals.css'
 
-const title = 'Shariq Yousuf | Full Stack Developer'
+const title =
+  'Shariq Yousuf | Modern JavaScript Developer | React / Next.js / Node.js'
 const description =
   'As a creative problem-solver with a strong work ethic, I am dedicated to delivering exceptional results, often exceeding client expectations. My proficiency in technologies like HTML, CSS, JavaScript, React, Next.js, Node.js, and Express enables me to build high-performing and scalable web solutions.'
 
 const url = process.env.NEXT_PUBLIC_SITE_URL
 
 export const metadata: Metadata = {
-  applicationName: 'Shariq Yousuf | Full Stack Developer',
+  applicationName:
+    'Shariq Yousuf | Modern JavaScript Developer | React / Next.js / Node.js',
   title,
   description,
   category: 'technology',
@@ -24,7 +26,8 @@ export const metadata: Metadata = {
     title,
     description,
     url,
-    siteName: 'Shariq Yousuf | Full Stack Developer',
+    siteName:
+      'Shariq Yousuf | Modern JavaScript Developer | React / Next.js / Node.js',
     type: 'website',
   },
   twitter: {
