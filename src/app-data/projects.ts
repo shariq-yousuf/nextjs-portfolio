@@ -20,7 +20,7 @@ export const projects: Project[] = [
     image:
       'https://res.cloudinary.com/do0pop1de/image/upload/f_auto,q_auto/v1/src%20for%20portfolio%20website/Projects%20Screenshots/Palindrome%20Checker',
     links: {
-      live: './Projects/Palindrome-Checker/index.html',
+      live: 'https://shariq-yousuf.github.io/vanillajs-portfolio/Projects/Palindrome-Checker/index.html',
       github:
         'https://github.com/shariq-yousuf/Developer-Portfolio/tree/main/Projects/Palindrome-Checker',
     },
@@ -33,7 +33,7 @@ export const projects: Project[] = [
     image:
       'https://res.cloudinary.com/do0pop1de/image/upload/f_auto,q_auto/v1/src%20for%20portfolio%20website/Projects%20Screenshots/lucky-draw',
     links: {
-      live: './Projects/Lucky-Draw/index.html',
+      live: 'https://shariq-yousuf.github.io/vanillajs-portfolio/Projects/Lucky-Draw/index.html',
       github:
         'https://github.com/shariq-yousuf/Developer-Portfolio/tree/main/Projects/Lucky-Draw',
     },
@@ -45,7 +45,7 @@ export const projects: Project[] = [
     image:
       'https://res.cloudinary.com/do0pop1de/image/upload/f_auto,q_auto/v1/src%20for%20portfolio%20website/Projects%20Screenshots/roman-numerals-converter',
     links: {
-      live: './Projects/Roman-Numeral-Converter/index.html',
+      live: 'https://shariq-yousuf.github.io/vanillajs-portfolio/Projects/Roman-Numeral-Converter/index.html',
       github:
         'https://github.com/shariq-yousuf/Developer-Portfolio/tree/main/Projects/Roman-Numeral-Converter',
     },
@@ -58,7 +58,7 @@ export const projects: Project[] = [
     image:
       'https://res.cloudinary.com/do0pop1de/image/upload/f_auto,q_auto/v1/src%20for%20portfolio%20website/Projects%20Screenshots/quiz-app',
     links: {
-      live: './Projects/Quiz-App/index.html',
+      live: 'https://shariq-yousuf.github.io/vanillajs-portfolio/Projects/Quiz-App/index.html',
       github:
         'https://github.com/shariq-yousuf/Developer-Portfolio/tree/main/Projects/Quiz-App',
     },
@@ -70,7 +70,7 @@ export const projects: Project[] = [
     image:
       'https://res.cloudinary.com/do0pop1de/image/upload/f_auto,q_auto/v1/src%20for%20portfolio%20website/Projects%20Screenshots/mobile-number-validator',
     links: {
-      live: './Projects/Mobile-Number-Validator/index.html',
+      live: 'https://shariq-yousuf.github.io/vanillajs-portfolio/Projects/Mobile-Number-Validator/index.html',
       github:
         'https://github.com/shariq-yousuf/Developer-Portfolio/tree/main/Projects/Mobile-Number-Validator',
     },
@@ -121,7 +121,7 @@ export const projects: Project[] = [
     image:
       'https://res.cloudinary.com/do0pop1de/image/upload/f_auto,q_auto/v1/src%20for%20portfolio%20website/Projects%20Screenshots/Carousel',
     links: {
-      live: './Projects/Carousel/index.html',
+      live: 'https://shariq-yousuf.github.io/vanillajs-portfolio/Projects/Carousel/index.html',
       github:
         'https://github.com/shariq-yousuf/Developer-Portfolio/tree/main/Projects/Carousel',
     },
@@ -134,7 +134,7 @@ export const projects: Project[] = [
     image:
       'https://res.cloudinary.com/do0pop1de/image/upload/f_auto,q_auto/v1/src%20for%20portfolio%20website/Projects%20Screenshots/change-champ',
     links: {
-      live: './Projects/Change-Champ/index.html',
+      live: 'https://shariq-yousuf.github.io/vanillajs-portfolio/Projects/Change-Champ/index.html',
       github:
         'https://github.com/shariq-yousuf/Developer-Portfolio/tree/main/Projects/Change-Champ',
     },
@@ -282,7 +282,7 @@ export const projects: Project[] = [
     image:
       'https://res.cloudinary.com/do0pop1de/image/upload/f_auto,q_auto/v1/src%20for%20portfolio%20website/Projects%20Screenshots/typing-pro',
     links: {
-      live: './Projects/Typing-Pro/index.html',
+      live: 'https://shariq-yousuf.github.io/vanillajs-portfolio/Projects/Typing-Pro/index.html',
       github:
         'https://github.com/shariq-yousuf/Developer-Portfolio/tree/main/Projects/Typing-Pro',
     },
@@ -307,7 +307,7 @@ export const projects: Project[] = [
     image:
       'https://res.cloudinary.com/do0pop1de/image/upload/f_auto,q_auto/v1/src%20for%20portfolio%20website/Projects%20Screenshots/word-counter',
     links: {
-      live: './Projects/Word-Counter/index.html',
+      live: 'https://shariq-yousuf.github.io/vanillajs-portfolio/Projects/Word-Counter/index.html',
       github:
         'https://github.com/shariq-yousuf/Developer-Portfolio/tree/main/Projects/Word-Counter',
     },

@@ -10,8 +10,8 @@ const Projects = () => {
         <SectionHeading heading="All Projects" />
 
         <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
-          {projects.toReversed().map(project => (
-            <ProjectCard key={project.title} project={project} />
+          {projects.toReversed().map((project, idx) => (
+            <ProjectCard key={idx} project={project} />
           ))}
         </div>
       </SectionContainer>
