@@ -23,9 +23,9 @@ const SectionHeading: FC<SectionHeadingProps> = ({
       }}
       className={`mb-6 space-y-4 md:mb-12 ${className}`}
     >
-      <h3 className="text-primary text-4xl font-semibold">{heading}</h3>
+      <h3 className="text-primary-content text-4xl font-semibold">{heading}</h3>
       {descriptoin && (
-        <p className="text-primary max-w-3xl text-lg font-normal">
+        <p className="text-primary-content max-w-3xl text-lg font-normal">
           {descriptoin}
         </p>
       )}

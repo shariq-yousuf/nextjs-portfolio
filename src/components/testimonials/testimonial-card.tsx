@@ -69,7 +69,7 @@ const TestimonialCard: FC<TestimonialCardProps> = ({
           )}
 
           <div className="-space-y-1">
-            <h5 className="text-primary">{fullname}</h5>
+            <h5 className="text-primary-content">{fullname}</h5>
             <span className="text-sm text-gray-500">{role}</span>
           </div>
         </div>

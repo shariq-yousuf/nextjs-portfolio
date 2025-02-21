@@ -18,7 +18,7 @@ const ProjectCard: FC<ProjectCardProps> = ({
   },
 }) => {
   return (
-    <div className="border-primary relative overflow-hidden rounded-2xl border-[3px] bg-transparent p-2 transition-all duration-300 has-[.live:hover]:scale-[1.02]">
+    <div className="border-primary-content relative overflow-hidden rounded-2xl border-[3px] bg-transparent p-2 transition-all duration-300 has-[.live:hover]:scale-[1.02]">
       <motion.a
         href={live}
         className="live flex h-full flex-col gap-1.5"
@@ -34,7 +34,7 @@ const ProjectCard: FC<ProjectCardProps> = ({
           <Image src={image} className="rounded-lg" alt={title} fill />
         </figure>
 
-        <h3 className="text-primary text-2xl font-medium">{title}</h3>
+        <h3 className="text-primary-content text-2xl font-medium">{title}</h3>
         <p className="line-clamp-4 text-sm leading-[1.3] font-light">
           {description}
         </p>
@@ -43,7 +43,7 @@ const ProjectCard: FC<ProjectCardProps> = ({
           {tags.map(tag => (
             <span
               key={tag}
-              className="text-primary inline-block rounded-full bg-zinc-800 px-2 py-1 text-xs"
+              className="text-primary-content inline-block rounded-full bg-zinc-800 px-2 py-1 text-xs"
             >
               {tag}
             </span>
@@ -53,7 +53,7 @@ const ProjectCard: FC<ProjectCardProps> = ({
 
       {github && (
         <a
-          className="bg-primary group absolute -top-2 -right-7 flex h-[40px] w-[80px] rotate-45 items-center justify-center"
+          className="bg-primary-content group absolute -top-2 -right-7 flex h-[40px] w-[80px] rotate-45 items-center justify-center"
           target="_blank"
           href={github}
         >

@@ -25,7 +25,7 @@ const Footer = () => {
               className="cursor-pointer rounded-lg p-4 transition-colors duration-300 hover:bg-gray-900"
             >
               <Link href={section.href} className="block">
-                <h2 className="text-primary text-lg font-semibold">
+                <h2 className="text-primary-content text-lg font-semibold">
                   {section.title}
                 </h2>
 
@@ -35,7 +35,9 @@ const Footer = () => {
           ))}
 
           <section className="rounded-lg p-4">
-            <h2 className="text-primary text-lg font-semibold">Contact</h2>
+            <h2 className="text-primary-content text-lg font-semibold">
+              Contact
+            </h2>
 
             <a
               href="mailto:shariqyousuf01@gmail.com"

@@ -30,7 +30,7 @@ const HeroDescription: FC<HeroDescriptionProps> = ({ descriptions }) => {
   }, [currentText])
 
   return (
-    <p className="text-primary min-h-16 max-w-lg text-center text-lg md:text-left">
+    <p className="text-primary-content min-h-16 max-w-lg text-center text-lg md:text-left">
       <span className="hidden md:inline">🔥 </span>
       {currentText && (
         <motion.span

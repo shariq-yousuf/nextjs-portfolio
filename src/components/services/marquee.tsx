@@ -23,7 +23,7 @@ const Marquee: React.FC<MarqueeProps> = ({ items }) => {
         visualDuration: 1,
       }}
       viewport={{ once: true }}
-      className="from-primary-bg to-primary-bg relative overflow-x-hidden bg-gradient-to-r via-gray-900"
+      className="from-primary to-primary relative overflow-x-hidden bg-gradient-to-r via-gray-900"
     >
       <div
         className="w-max p-5 whitespace-nowrap lg:px-10 lg:py-7"
@@ -33,7 +33,7 @@ const Marquee: React.FC<MarqueeProps> = ({ items }) => {
           {items.map(({ title, icon }, index) => (
             <span
               key={index}
-              className="text-primary flex items-center text-lg lg:text-base"
+              className="text-primary-content flex items-center text-lg lg:text-base"
             >
               <figure className="relative mx-2 size-11 lg:size-14">
                 <Image src={icon} alt={title} fill />
