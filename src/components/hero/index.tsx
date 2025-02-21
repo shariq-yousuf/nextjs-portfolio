@@ -1,8 +1,10 @@
-import { heroBgImage, heroDescriptions } from '@/app-data'
+'use client'
+
+import { heroBgImage, heroDescriptions, heroTitles } from '@/app-data'
 import { spaceGrotesk } from '@/fonts'
 import * as motion from 'motion/react-client'
 import Image from 'next/image'
-import HeroDescription from './hero-desc'
+import TypingAnimation from '../ui/typing-animation'
 
 const Hero = () => {
   return (
@@ -27,25 +29,39 @@ const Hero = () => {
         }}
         className="from-primary absolute top-0 z-10 h-dvh w-full bg-linear-to-r from-20% to-transparent p-4"
       >
-        <div className="flex h-full w-full flex-col items-center justify-center gap-4 md:w-1/2 md:items-start md:pl-[10%]">
-          <h1 className="flex flex-col gap-1 text-center text-lg text-[#e9e7dfdc] md:text-left">
-            <span>Hi, I am</span>
-            <motion.span
-              initial={{ opacity: 0, rotateX: 0 }}
-              whileInView={{ opacity: 1, rotateX: [null, '90deg', 0] }}
-              transition={{
-                duration: 0.5,
-                delay: 0.5,
-              }}
-              className={`font-primary text-4xl ${spaceGrotesk.className}`}
-            >
-              <span className="text-primary-content font-bold">Shariq</span>{' '}
-              Yousuf
-            </motion.span>
-            <span className="text-sm font-light">Full Stack Web Developer</span>
+        <div className="flex h-full w-full flex-col items-center justify-center gap-4 md:w-2/3 md:items-start md:gap-6 md:pb-[8%] md:pl-[10%]">
+          <h1 className="space-y-3 text-center text-[#e9e7dfdc] md:space-y-6 md:text-left">
+            <div className="flex items-end justify-center gap-2 md:justify-start">
+              <span className="text-lg">Hi, I am</span>
+              <motion.span
+                initial={{ opacity: 0, rotateX: 0 }}
+                whileInView={{ opacity: 1, rotateX: [null, '90deg', 0] }}
+                transition={{
+                  duration: 0.5,
+                  delay: 0.5,
+                }}
+                className={`text-primary-content text-3xl font-bold md:text-4xl ${spaceGrotesk.className}`}
+              >
+                Shariq Yousuf
+              </motion.span>
+            </div>
+
+            <div className="flex flex-col gap-4 text-3xl font-light md:text-5xl">
+              Modern JavaScript Developer
+              <span>
+                |{' '}
+                <TypingAnimation
+                  textArr={heroTitles}
+                  className="text-primary-content font-semibold"
+                />
+              </span>
+            </div>
           </h1>
 
-          <HeroDescription descriptions={heroDescriptions} />
+          <p className="text-primary-content min-h-16 max-w-lg text-center text-lg md:text-left">
+            <span className="hidden md:inline">🔥 </span>
+            <TypingAnimation textArr={heroDescriptions} />
+          </p>
 
           <motion.a
             initial={{ opacity: 0, y: 30 }}
