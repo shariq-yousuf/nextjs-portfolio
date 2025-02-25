@@ -21,6 +21,7 @@ const ProjectCard: FC<ProjectCardProps> = ({
     <div className="border-primary-content relative overflow-hidden rounded-2xl border-[3px] bg-transparent p-2 transition-all duration-300 has-[.live:hover]:scale-[1.02]">
       <motion.a
         href={live}
+        target='blank'
         className="live flex h-full flex-col gap-1.5"
         initial={{ opacity: 0, y: 50 }}
         whileInView={{ opacity: 1, y: 0 }}
