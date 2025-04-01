@@ -53,6 +53,7 @@ const Hero = () => {
                 <TypingAnimation
                   textArr={heroTitles}
                   className="text-primary-content font-semibold"
+                  delay={20}
                 />
               </span>
             </div>

@@ -3,9 +3,14 @@ import { FC, useEffect, useState } from 'react'
 
 interface TypingAnimationProps extends HTMLMotionProps<'span'> {
   textArr: string[]
+  delay?: number
 }
 
-const TypingAnimation: FC<TypingAnimationProps> = ({ textArr, ...props }) => {
+const TypingAnimation: FC<TypingAnimationProps> = ({
+  textArr,
+  delay,
+  ...props
+}) => {
   const [currentText, setCurrentText] = useState(textArr[0])
 
   useEffect(() => {
@@ -18,7 +23,7 @@ const TypingAnimation: FC<TypingAnimationProps> = ({ textArr, ...props }) => {
         const nextIndex = (index + 1) % textArr.length
         setCurrentText(textArr[nextIndex])
       }, 100)
-    }, 4000)
+    }, 5000)
 
     return () => {
       clearInterval(intervalId)
@@ -43,7 +48,7 @@ const TypingAnimation: FC<TypingAnimationProps> = ({ textArr, ...props }) => {
             animate={{ opacity: 1 }}
             transition={{
               duration: 0.25,
-              delay: i / 40,
+              delay: i / (delay || 40),
             }}
             key={i}
           >
