@@ -5,6 +5,7 @@ import { spaceGrotesk } from '@/fonts'
 import * as motion from 'motion/react-client'
 import Image from 'next/image'
 import TypingAnimation from '../ui/typing-animation'
+import { MoveRight } from 'lucide-react'
 
 const Hero = () => {
   return (
@@ -64,7 +65,7 @@ const Hero = () => {
             <TypingAnimation textArr={heroDescriptions} />
           </p>
 
-          <motion.a
+          <motion.div
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{
@@ -73,12 +74,22 @@ const Hero = () => {
               visualDuration: 0.3,
               delay: 0.5,
             }}
-            href="https://www.linkedin.com/in/shariq-yousuf"
-            target="_blank"
-            className={`border-primary-content bg-primary-content hover:text-primary-content text-primary mx-auto max-w-max cursor-pointer rounded border-2 px-6 py-1 font-medium duration-300 hover:bg-transparent md:mx-0`}
+            className="flex flex-col gap-4 sm:flex-row"
           >
-            Let's Connect
-          </motion.a>
+            <a
+              href="https://www.linkedin.com/in/shariq-yousuf"
+              className="border-primary-content bg-primary-content hover:text-primary-content text-primary mx-auto max-w-max cursor-pointer rounded border-2 px-6 py-1 font-medium transition-colors duration-300 hover:bg-transparent md:mx-0"
+            >
+              Let's Connect
+            </a>
+            <a
+              href="https://github.com/shariq-yousuf"
+              target="_blank"
+              className="border-secondary-content/70 hover:border-primary-content hover:text-primary-content text-secondary-content/70 mx-auto flex max-w-max cursor-pointer items-center gap-2 rounded border-2 bg-transparent px-6 py-1 font-medium transition-colors duration-300 md:mx-0"
+            >
+              Github <MoveRight />
+            </a>
+          </motion.div>
         </div>
       </motion.div>
     </motion.div>
