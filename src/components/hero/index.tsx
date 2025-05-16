@@ -60,10 +60,10 @@ const Hero = () => {
             </div>
           </h1>
 
-          <p className="text-primary-content min-h-16 max-w-lg text-center text-lg md:text-left">
+          {/* <p className="text-primary-content min-h-16 max-w-lg text-center text-lg md:text-left">
             <span className="hidden md:inline">🔥 </span>
             <TypingAnimation textArr={heroDescriptions} />
-          </p>
+          </p> */}
 
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -74,7 +74,7 @@ const Hero = () => {
               visualDuration: 0.3,
               delay: 0.5,
             }}
-            className="flex flex-col gap-4 sm:flex-row"
+            className="mt-5 flex flex-col gap-4 sm:flex-row"
           >
             <a
               href="https://www.linkedin.com/in/shariq-yousuf"
