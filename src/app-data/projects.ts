@@ -340,42 +340,6 @@ export const projects: Project[] = [
     tags: ['React'],
   },
   {
-    title: 'Taleemify',
-    description:
-      'Contributed to a directory website listing academies and courses. Enhanced the overall website and added two key features: dedicated pages for blogs and advisors, improving content accessibility and user engagement.',
-    image:
-      'https://res.cloudinary.com/do0pop1de/image/upload/v1739621797/src%20for%20portfolio%20website/Projects%20Screenshots/taleemify.png',
-    links: {
-      live: 'https://taleemify.pk/',
-      github: '',
-    },
-    tags: ['Next.js', 'TypeScript', 'Tailwind CSS'],
-  },
-  {
-    title: 'Flexy UI',
-    description:
-      'Contributed to a free React component library by enhancing the overall website design and developing multiple reusable components, including Marquee, Vertical Stepper, and Newsletter.',
-    image:
-      'https://res.cloudinary.com/do0pop1de/image/upload/v1739621796/src%20for%20portfolio%20website/Projects%20Screenshots/flexyui.png',
-    links: {
-      live: 'https://www.flexyui.com/react-tailwind-components/banner',
-      github: '',
-    },
-    tags: ['Next.js', 'TypeScript', 'UI/UX', 'Tailwind CSS'],
-  },
-  {
-    title: 'Flexy UI Templates',
-    description:
-      'Designed and built the UI for a dedicated page on the React component library showcasing website templates.',
-    image:
-      'https://res.cloudinary.com/do0pop1de/image/upload/v1739622125/src%20for%20portfolio%20website/Projects%20Screenshots/flexyui-templates.png',
-    links: {
-      live: 'https://www.flexyui.com/templates/tailwind',
-      github: '',
-    },
-    tags: ['Next.js', 'TypeScript', 'Tailwind CSS'],
-  },
-  {
     title: 'Lucky Draw',
     description:
       'An interactive and dynamic Lucky Draw app built with React, showcasing my expertise in front-end development and user experience design.',
@@ -410,5 +374,41 @@ export const projects: Project[] = [
       github: '',
     },
     tags: ['React', 'TypeScript', 'Tailwind CSS'],
+  },
+  {
+    title: 'Taleemify',
+    description:
+      'Contributed to a directory website listing academies and courses. Enhanced the overall website and added two key features: dedicated pages for blogs and advisors, improving content accessibility and user engagement.',
+    image:
+      'https://res.cloudinary.com/do0pop1de/image/upload/v1739621797/src%20for%20portfolio%20website/Projects%20Screenshots/taleemify.png',
+    links: {
+      live: 'https://taleemify.pk/',
+      github: '',
+    },
+    tags: ['Next.js', 'TypeScript', 'Tailwind CSS'],
+  },
+  {
+    title: 'Flexy UI Templates',
+    description:
+      'Designed and built the UI for a dedicated page on the React component library showcasing website templates.',
+    image:
+      'https://res.cloudinary.com/do0pop1de/image/upload/v1739622125/src%20for%20portfolio%20website/Projects%20Screenshots/flexyui-templates.png',
+    links: {
+      live: 'https://www.flexyui.com/templates/tailwind',
+      github: '',
+    },
+    tags: ['Next.js', 'TypeScript', 'Tailwind CSS'],
+  },
+  {
+    title: 'Flexy UI',
+    description:
+      'Contributed to a React component library by enhancing the overall website design, adding live components preview and developing multiple reusable components.',
+    image:
+      'https://res.cloudinary.com/do0pop1de/image/upload/v1739621796/src%20for%20portfolio%20website/Projects%20Screenshots/flexyui.png',
+    links: {
+      live: 'https://www.flexyui.com/',
+      github: '',
+    },
+    tags: ['Next.js', 'TypeScript', 'UI/UX', 'Tailwind CSS'],
   },
 ]
