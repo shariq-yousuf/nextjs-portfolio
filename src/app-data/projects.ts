@@ -404,7 +404,7 @@ export const projects: Project[] = [
     description:
       'Contributed to a React component library by enhancing the overall website design, adding live components preview and developing multiple reusable components.',
     image:
-      'https://res.cloudinary.com/do0pop1de/image/upload/v1739621796/src%20for%20portfolio%20website/Projects%20Screenshots/flexyui.png',
+      'https://res.cloudinary.com/do0pop1de/image/upload/f_auto,q_auto/v1/src%20for%20portfolio%20website/Projects%20Screenshots/flexyui',
     links: {
       live: 'https://www.flexyui.com/',
       github: '',
