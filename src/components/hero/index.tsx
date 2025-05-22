@@ -77,10 +77,11 @@ const Hero = () => {
             className="mt-5 flex flex-col gap-4 sm:flex-row"
           >
             <a
-              href="https://www.linkedin.com/in/shariq-yousuf"
-              className="border-primary-content bg-primary-content hover:text-primary-content text-primary mx-auto max-w-max cursor-pointer rounded border-2 px-6 py-1 font-medium transition-colors duration-300 hover:bg-transparent md:mx-0"
+              href="/download/shariq-yousuf.pdf"
+              download
+              className="border-primary-content bg-primary-content hover:text-primary-content text-primary mx-auto max-w-max cursor-pointer rounded border-2 px-6 py-1 font-medium transition-all duration-300 hover:bg-transparent md:mx-0"
             >
-              Let's Connect
+              Download CV
             </a>
             <a
               href="https://github.com/shariq-yousuf"
